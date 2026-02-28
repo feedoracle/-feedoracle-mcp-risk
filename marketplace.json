@@ -1,0 +1,99 @@
+{
+  "server": {
+    "name": "FeedOracle Stablecoin Risk",
+    "description": "Deterministic 7-signal stablecoin operational risk scoring. 100-point scale, 3 verdicts: SAFE/CAUTION/AVOID. Covers 28+ stablecoins with curated custody and redemption registries.",
+    "version": "1.0.0",
+    "engine": "stablecoin-risk/1.0",
+    "transport": "sse",
+    "endpoint": "https://feedoracle.io/mcp/risk/sse",
+    "health": "https://feedoracle.io/mcp/risk/health",
+    "provider": {
+      "name": "FeedOracle",
+      "url": "https://feedoracle.io"
+    }
+  },
+  "tools": [
+    {
+      "name": "ping",
+      "description": "Server connectivity test"
+    },
+    {
+      "name": "risk_assessment",
+      "description": "Full 7-signal risk report for a stablecoin"
+    },
+    {
+      "name": "peg_status",
+      "description": "Quick peg check - current price and deviation"
+    },
+    {
+      "name": "peg_history",
+      "description": "30-day peg history with depeg events"
+    },
+    {
+      "name": "supply_flow",
+      "description": "Mint/burn flow analysis - 7d supply changes"
+    },
+    {
+      "name": "holder_data",
+      "description": "Holder concentration metrics - HHI, whale count"
+    },
+    {
+      "name": "custody_data",
+      "description": "Custodian profile - SIFI status, attestations"
+    },
+    {
+      "name": "redemption_data",
+      "description": "Redemption terms - settlement, fees, minimums"
+    },
+    {
+      "name": "cross_chain_data",
+      "description": "Cross-chain distribution - bridge exposure"
+    },
+    {
+      "name": "leaderboard",
+      "description": "Ranked stablecoins by risk score"
+    },
+    {
+      "name": "compare",
+      "description": "Side-by-side comparison up to 5 stablecoins"
+    },
+    {
+      "name": "supported_tokens",
+      "description": "List all supported stablecoins"
+    },
+    {
+      "name": "methodology",
+      "description": "Scoring methodology and data sources"
+    }
+  ],
+  "signals": [
+    "peg_stability",
+    "liquidity_depth",
+    "mint_burn_flow",
+    "holder_concentration",
+    "custody_counterparty",
+    "redemption_friction",
+    "cross_chain_risk"
+  ],
+  "coverage": [
+    "USDC",
+    "USDT",
+    "EURC",
+    "DAI",
+    "USDS",
+    "RLUSD",
+    "PYUSD",
+    "FRAX",
+    "LUSD",
+    "GHO",
+    "USDe",
+    "FDUSD",
+    "USD0",
+    "USDY",
+    "BUIDL",
+    "GUSD",
+    "USDP",
+    "BUSD",
+    "TUSD"
+  ]
+}
