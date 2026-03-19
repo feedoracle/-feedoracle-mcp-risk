@@ -11,7 +11,7 @@
 [![Tokens](https://img.shields.io/badge/tokens-105+-8A9DB4?style=flat-square)](https://feedoracle.io)
 [![Free](https://img.shields.io/badge/free-100_calls%2Fday-10B898?style=flat-square)](https://feedoracle.io/pricing.html)
 
-[Website](https://feedoracle.io) Â· [All MCP Tools](https://feedoracle.io/mcp.html) Â· [Docs](https://feedoracle.io/docs.html) Â· [Main Repo](https://github.com/feedoracle/feedoracle-mcp)
+[Website](https://feedoracle.io) · [All MCP Tools](https://feedoracle.io/mcp.html) · [Docs](https://feedoracle.io/docs.html) · [Main Repo](https://github.com/feedoracle/feedoracle-mcp)
 
 </div>
 
@@ -21,11 +21,13 @@
 
 Any MCP-compatible AI agent can ask:
 
-- *"Is USDC safe for settlement?"* â†’ **SAFE** (6/100)
-- *"Compare USDC vs USDT for treasury"* â†’ Side-by-side risk comparison
-- *"Which stablecoins are safest now?"* â†’ Ranked leaderboard
+- *"Is USDC safe for settlement?"* → **SAFE** (6/100)
+- *"Compare USDC vs USDT for treasury"* → Side-by-side risk comparison
+- *"Which stablecoins are safest now?"* → Ranked leaderboard
 
 No opinions. No financial advice. Deterministic, auditable risk classification. Every response cryptographically signed.
+
+[![FeedOracle Risk MCP server](https://glama.ai/mcp/servers/feedoracle/-feedoracle-mcp-risk/badges/card.svg)](https://glama.ai/mcp/servers/feedoracle/-feedoracle-mcp-risk)
 
 ## Quick start
 
@@ -37,7 +39,7 @@ No API key needed.
 
 ## 7-signal scoring
 
-100-point scale â€” lower is safer.
+100-point scale – lower is safer.
 
 | Signal | Weight | Source |
 |--------|--------|--------|
@@ -87,6 +89,6 @@ No API key needed.
 
 **FeedOracle turns compliance documents into compliance evidence.**
 
-[feedoracle.io](https://feedoracle.io) Â· *Evidence by Design.*
+[feedoracle.io](https://feedoracle.io) · *Evidence by Design.*
 
 </div>
