@@ -1,0 +1,11 @@
+{
+  "name": "FeedOracle Risk MCP",
+  "description": "Stablecoin risk intelligence MCP. CCI concentration risk, reserve drift, depeg probability, stablecoin risk scoring. Real-time RLUSD, USDT, USDC, EURC monitoring. MiCA Art.25/35.",
+  "version": "2.5.0",
+  "author": "FeedOracle",
+  "homepage": "https://feedoracle.io",
+  "repository": "https://github.com/feedoracle/-feedoracle-mcp-risk",
+  "license": "MIT",
+  "tags": ["stablecoin","risk","mica","concentration-risk","reserve","mcp","evidence"],
+  "mcp": {"transport": "streamable-http", "endpoint": "https://mcp.feedoracle.io/risk/mcp"}
+}
